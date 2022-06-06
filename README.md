@@ -1,4 +1,4 @@
-# JavaScriptProjects
+# JavaScript Projects
 A bunch of JS projects to brush up on Skills
 
 Some projects and ideas come from the following sources. 

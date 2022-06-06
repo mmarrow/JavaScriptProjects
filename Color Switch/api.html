@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Color Switcher</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <nav class="flex items-center bg-blue-200 p-4">
+            <h1 class="font-bold text-xl pr-10">
+                COLOR SWITCHER
+            </h1>
+            <ul class="flex items-center">
+                <li class="pr-4">
+                    <a class="hover:underline text-gray-700" href="index.html">Simple</a>
+                </li>
+                <li class="pr-4">
+                    <a class="hover:underline text-gray-700" href="hex.html">Hex</a>
+                </li>
+                <li>
+                    <a class="hover:underline text-gray-700" href="api.html">API</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="flex justify-center items-center min-h-screen">
+            <section class="">
+                <h3 class="text-center mb-14 font-semibold text-lg">These change based on API calls to Color API</h3>
+                <h2 class="text-center mb-10 bg-blue-600 text-white rounded-md py-4 px-6 text-3xl">Background: <span class="color font-bold">#f1f5f8</span></h2>
+                <div class="text-center">
+                    <button id="btn" class="uppercase bg-black px-4 py-2 text-white rounded-md border-2 border-white hover:border-black hover:text-black hover:bg-white">Click Me</button>
+                </div>
+            </section>
+        </main>
+        
+        <script src="api.js" async defer></script>
+    </body>
+</html>

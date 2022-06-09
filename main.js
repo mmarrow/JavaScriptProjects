@@ -35,8 +35,6 @@ resetCount = () => {
 };
 
 setCountColor = (currentCount) => {
-    console.log(currentCount);
-
     if (currentCount === 0) {
         count.style.color = 'darkgray';
     } 
